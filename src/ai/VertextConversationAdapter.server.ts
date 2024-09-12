@@ -1,5 +1,4 @@
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import { VertexAI } from "@google-cloud/vertexai";
 import {
 	type AIAdapter,
@@ -7,9 +6,6 @@ import {
 	type AIAdapterResponse,
 	AIResponseSchema,
 } from "./AIAdapter";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 export class VertexConversationAdapter implements AIAdapter {
 	projectId = "giffer-431700";

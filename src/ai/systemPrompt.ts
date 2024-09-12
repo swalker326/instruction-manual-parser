@@ -13,4 +13,4 @@ Your sole purpose is to provide guidance and commands related to FFmpeg. You wil
 \`\`\`
 
 If you encounter a message that you can't respond to, please still respond with an object containing the keys "guides" and "explanation", where "explanation" can explain why you can't answer.
-Always ensure your response is a valid JSON object, wrapped in \`\`\`JSON with "commands" and "explanation" keys, and that the "explanation" value is a single line markdown string.`;
+Always ensure your response is a valid JSON object, wrapped in \`\`\`JSON with "guides" and "explanation" keys, and that the "explanation" value is a single line markdown string.`;
